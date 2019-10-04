@@ -246,10 +246,13 @@ section {
 }
 
 .full-banner:before {
-    content: " ";
+    content: "";
     position: absolute;
     border: 1px solid #fff;
-    padding: 30px 30px 50px 50px;
+    top: 30px;
+    bottom: 30px;
+    left: 50px;
+    right: 50px;
     z-index: 1;
 }
 
@@ -262,11 +265,11 @@ section {
 }
 
 .full-banner-sidebar {
-    flex: 0 0 41.666667;
+    flex: 0 0 41.666667%;
     background-color: #364147;
     text-transform: uppercase;
     padding: 30px;
-    color: #fff;
+    color: #ffffff;
 }
 
 .full-banner-sidebar h4 {
@@ -278,9 +281,9 @@ section {
 }
 
 .full-banner-sidebar h4:after {
-    content: " ";
+    content: "";
     width: 100px;
-    height: 1;
+    height: 1px;
     background-color: #faa541;
     margin: 20px auto;
     display: block;
